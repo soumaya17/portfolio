@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      #hero {
+        background: url(https://www.dreamhost.com/blog/wp-content/uploads/2018/09/elements-web-design-opt.jpg)
+          no-repeat center center/cover;
+        position: relative;
+      }
+      #hero::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0.7;
+      }
+    </style>
+    <title>portfolio</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header
+      class="py-4 font-semibold text-2xl bg-pink-800 flex flex-col items-center text-white md:h-[88px] md:flex-row md:justify-around md:p-5"
+    >
+      <h1>Soumaya Chamekh</h1>
+
+      <nav>
+        <a href="" class="pr-4 hover:text-rose-300">Home</a>
+        <a href="" class="pr-4 hover:text-rose-300">Pojects</a>
+        <a href="" class="pr-4 hover:text-rose-300">Contact</a>
+      </nav>
+    </header>
+    <!-- hero section -->
+    <section
+      id="hero"
+      class="container mx-auto h-[400px] flex flex-col items-center justify-center text-white"
+    >
+      <p class="text-center z-10 text-white w-1/2 text-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sunt
+        molestias repellendus? Libero officia soluta et, numquam in nobis, eius,
+        dolor accusamus quae suscipit voluptatibus?
+      </p>
+    </section>
+    <!-- skills section -->
+    <section>
+      <div
+        class="container flex flex-col items-center justify-center mx-auto md:flex-row md:justify-around"
+      >
+        <!-- Skills-one -->
+        <div class="text-center text-lg p-6">
+          <h2 class="font-bold">HTML5</h2>
+          <p class="py-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus minus inventore recusandae, voluptates repellendus
+            ipsa in. Odit cumque autem numquam.
+          </p>
+        </div>
+        <!-- Skills-Two -->
+        <div class="text-center text-lg p-6">
+          <h2 class="font-bold">CSS</h2>
+          <p class="py-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus minus inventore recusandae, voluptates repellendus
+            ipsa in. Odit cumque autem numquam.
+          </p>
+        </div>
+        <!-- Skills-Three -->
+        <div class="text-center text-lg p-6">
+          <h2 class="font-bold">Web Design</h2>
+          <p class="py-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus minus inventore recusandae, voluptates repellendus
+            ipsa in. Odit cumque autem numquam.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- projects section -->
+    <section>
+      <!-- Html Project -->
+      <div
+        class="container flex flex-col justify-center items-center mx-auto border-b-4 border-b-pink-800 py-4 md:flex-row md:justify-around"
+      >
+        <div
+          class="container flex flex-col items-center justify-center mx-auto p-4"
+        >
+          <h3 class="font-bold pb-3">HTML Project</h3>
+          <p class="text-center pb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            fugit consequuntur corrupti voluptas numquam aut!
+          </p>
+          <img
+            src="https://miro.medium.com/v2/resize:fit:1400/1*y3YGTrrOxU838Ly_gnP1nw.jpeg"
+            alt="HTMLProject"
+            class="h-[250px] md:w-[200px]"
+          />
+        </div>
+        <!-- css Project -->
+        <div
+          class="container flex flex-col items-center justify-center mx-auto p-4"
+        >
+          <h3 class="font-bold pb-3">CSS Project</h3>
+          <p class="text-center pb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            fugit consequuntur corrupti voluptas numquam aut!
+          </p>
+          <img
+            src="https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css-projects/training-studio.png"
+            class="h-[250px] md:w-[200px]"
+          />
+        </div>
+        <!-- Bootstap Project -->
+        <div
+          class="container flex flex-col items-center justify-center mx-auto p-4"
+        >
+          <h3 class="font-bold pb-3">Bootstrap Project</h3>
+          <p class="text-center pb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            fugit consequuntur corrupti voluptas numquam aut!
+          </p>
+          <img
+            src="https://cdn.dribbble.com/users/639879/screenshots/6791865/dribbble-coderpro.png"
+            alt="Bootstrap"
+            class="h-[250px] md:w-[200px]"
+          />
+        </div>
+        <!-- Tailwind Project -->
+        <div
+          class="container flex flex-col items-center justify-center mx-auto p-4"
+        >
+          <h3 class="font-bold pb-3">Tailwind Project</h3>
+          <p class="text-center pb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+            fugit consequuntur corrupti voluptas numquam aut!
+          </p>
+          <img
+            src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/creative-tim/opt_tsp_tailwindcss_thumbnail.jpg"
+            alt="Tailwind"
+            class="h-[250px] md:w-[200px]"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- contact forum -->
+    <form action="">
+      <div
+        class="container flex flex-col mx-auto justify-center p-6 md:flex-col md:justify-center w-3/4"
+      >
+        <!-- Text -->
+
+        <label for="name" class="text-center font-bold">name</label>
+        <input type="text" name="name" id="name" required class="border-2" />
+
+        <!-- Email -->
+
+        <label for="Email" class="text-center font-bold">Email</label>
+        <input type="Email" name="Email" id="Email" required class="border-2" />
+
+        <!-- Textarea -->
+
+        <label for="message" class="text-center font-bold">Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          required
+          class="border-2"
+        ></textarea>
+
+        <!-- Input Submit-->
+        <button
+          type="submit"
+          class="bg-pink-800 hover:text-rose-300 font-bold mb-4 text-center md:w-full my-4"
+        >
+          submit
+        </button>
+      </div>
+    </form>
+
+    <!-- Footer -->
+    <footer class="bg-pink-800 text-white py-4 mx-auto text-center text-lg">
+      <p>Acme Web Desig, Copyright &copy; 2024</p>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+    </footer>
+  </body>
+</html>
